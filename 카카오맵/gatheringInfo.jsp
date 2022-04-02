@@ -353,7 +353,6 @@
 				}
 				function setBounds() {
 					map.setBounds(bounds, 90, 30, 10, 30);
-					console.log(bounds);
 				} 
 	</script>
           
