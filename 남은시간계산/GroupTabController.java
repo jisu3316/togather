@@ -85,7 +85,7 @@ public class GroupTabController {
 		Member m = (Member)session.getAttribute("m");
 		HashMap<String,Object> map = new HashMap<>();
 		map.put("mnum",m.getMnum());
-		map.put("gseq",groupInfo.getGseq());
+		map.put("gseq",groupInfo.getGseq()); 
 		System.out.println("map: "+map);
 		List<HashMap<String,Object>> endTime = groupTabService.endTime(map);
 		System.out.println("endTime: "+endTime);
