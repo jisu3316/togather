@@ -57,7 +57,7 @@ create table MEMBER(
    CATEGORY_FIRST NVARCHAR2(20),
    CATEGORY_SECOND NVARCHAR2(20),
    CATEGORY_THIRD NVARCHAR2(20),
-   ATHUR NUMBER default 2 check(ATHUR in(0, 1, 2))
+   ATHUR NUMBER default 2 check(ATHUR in(0, 1, 2)) 
 ); 
 create sequence MEMBER_SEQ increment by 1 start with 1 nocache;
 
