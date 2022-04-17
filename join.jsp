@@ -53,7 +53,7 @@
 				console.log("카테고리2");
 		}else if($('#category_firstCheck2').val()!=""){
 				$('#category_first3').val("");
-				console.log("카테고리3");
+				console.log("카테고리3"); 
 		}
 		$('#ul2').remove();
 		$('#ul3').remove();
