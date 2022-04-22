@@ -9,7 +9,7 @@ DROP TABLE QAREPLY;
 DROP sequence QAREPLY_SEQ;
 DROP TABLE QA;
 DROP sequence QA_SEQ;
-drop table GBREPLY;
+drop table GBREPLY; 
 drop trigger TRI1;
 drop table GROUPTAB_BOARD;
 drop table GATHERING_JOIN; 
