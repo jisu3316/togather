@@ -7,7 +7,7 @@ DROP TABLE MESSAGE;
 DROP sequence MESSAGE_SEQ;
 DROP TABLE QAREPLY; 
 DROP sequence QAREPLY_SEQ;
-DROP TABLE QA;
+DROP TABLE QA; 
 DROP sequence QA_SEQ;
 drop table GBREPLY; 
 drop trigger TRI1;
