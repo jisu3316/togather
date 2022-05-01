@@ -3,7 +3,7 @@
 --grant connect, resource, unlimited tablespace to togather;
 --conn togather/team1;
 
-DROP TABLE MESSAGE;
+DROP TABLE MESSAGE; 
 DROP sequence MESSAGE_SEQ;
 DROP TABLE QAREPLY; 
 DROP sequence QAREPLY_SEQ;
